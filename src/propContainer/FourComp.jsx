@@ -1,8 +1,9 @@
 
 import React from 'react';
-const FourthComp = (props) => {
+const FourthComp = () => {
+
     return (
-        <div>{props.name}</div>
+        <div className='formsection'>{props.name}</div>
     );
 }
 
